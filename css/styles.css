@@ -9,7 +9,7 @@
 }
 
 #title {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: bold;
     background: linear-gradient(45deg, red, blue);
     background-clip: text;
@@ -39,7 +39,7 @@ section {
 section h1 {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin: 2rem 0;
     color: #e34b59;
 }
 
