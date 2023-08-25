@@ -3,88 +3,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 #nav {
-    font-family: 'Arima', cursive;
-    max-width: 80vw;
-    margin: 0 auto;
+  font-family: 'Arima', cursive;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 #title {
-    font-size: 5rem;
-    font-weight: bold;
-    background: linear-gradient(45deg, red, blue);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  font-size: 5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, red, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .carousel-item img {
-    object-fit: contain;
+  object-fit: contain;
 }
 
 main {
-    font-family: 'Poppins', sans-serif;
-    max-width: 75vw;
-    margin: 50px auto;
+  font-family: 'Poppins', sans-serif;
+  max-width: 75vw;
+  margin: 50px auto;
 }
 
 section {
-    margin: 30px auto;
-    max-width: 60vw;
+  margin: 30px auto;
+  max-width: 60vw;
 }
 
 section h1 {
-    text-align: center;
-    font-weight: bold;
-    margin: 2rem 0;
-    color: #e34b59;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0;
+  color: #e34b59;
 }
 
 section h4 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 section p {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 section blockquote {
-    font-size: x-large;
-    font-style: italic;
-    padding-left: 10px;
-    color: gray;
-    border-left: gray 4px solid;
-    margin: 1rem 0;
+  font-size: x-large;
+  font-style: italic;
+  padding-left: 10px;
+  color: gray;
+  border-left: gray 4px solid;
+  margin: 1rem 0;
 }
 
 .card {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .card-title {
-    padding: 15px;
-    margin: 10px 0;
+  padding: 15px;
+  margin: 10px 0;
 }
 
 .card-body {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 .btn {
-    font-size: x-large;
-    margin: 8px 8px;
-    padding: 8px 15px;
-    border-radius: 0.7rem;
+  font-size: x-large;
+  margin: 8px 8px;
+  padding: 8px 15px;
+  border-radius: 0.7rem;
 }
 
-@media (max-width: 992px) {
-    main {
-        max-width: 85vw;
-    }
-    section {
-        max-width: 75vw;
-    }
+@media (max-width: 1000px) {
+  main {
+    max-width: 85vw;
+  }
+  section {
+    max-width: 75vw;
+  }
 }
